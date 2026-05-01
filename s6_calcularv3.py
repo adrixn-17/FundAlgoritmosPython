@@ -14,7 +14,7 @@ def ValidarEntrada(peso, altura):
 def CalcularIMC(peso, altura):
     # validar datos de entrada
     valido = ValidarEntrada(peso, altura)
-    imc = 0 # Inicializamos imc para evitar errores si no es válido
+    imc = 0.0 # Inicializamos imc para evitar errores si no es válido
     if valido == True:
         # Proceso
         imc = peso / altura ** 2
